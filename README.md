@@ -19,7 +19,7 @@ A mod that measures many performance statistics. It can be used to help determin
 3. `IF YOU ARE USING A MOD MANAGER` Download from Thunderstore using the mod manager of choice (r2modman or Thunderstore Mod Manager), the .dll should end up in the mod manager's plugin directory, allowing the mod to load just fine.
 3. Start the game and press U + LeftShift.
 
-The on/off hotkey and looks can be configured in the config file in bepinex\config (have to run the game at least once to generate it), or by using [BepInEx.ConfigurationManager](https://github.com/BepInEx/BepInEx.ConfigurationManager).
+The on/off hotkey and looks can be configured in the config file in bepinex\config (have to run the game at least once to generate it), or by using [BepInEx.ConfigurationManager](https://valheim.thunderstore.io/package/Azumatt/Official_BepInEx_ConfigurationManager/).
 
 
 `Version checks with itself. If installed on the server, it will kick clients who do not have it installed.`
