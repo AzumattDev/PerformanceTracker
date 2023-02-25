@@ -17,14 +17,10 @@ A mod that measures many performance statistics. It can be used to help determin
 1. Install [BepInExPack_Valheim](https://valheim.thunderstore.io/package/denikson/BepInExPack_Valheim/) per the instructions. If you are using one of Thunderstore's mod managers (r2modman or Thunderstore Mod Manager), you can install it from there in the Online tab.
 2. `IF YOU ARE NOT USING A MOD MANAGER` Extract the release into your game root, the .dll should end up in BepInEx\plugins directory.
 3. `IF YOU ARE USING A MOD MANAGER` Download from Thunderstore using the mod manager of choice (r2modman or Thunderstore Mod Manager), the .dll should end up in the mod manager's plugin directory, allowing the mod to load just fine.
-3. Start the game and press U + LeftShift.
+4. Start the game and press U + LeftShift.
 
-The on/off hotkey and looks can be configured in the config file in bepinex\config (have to run the game at least once to generate it), or by using [BepInEx.ConfigurationManager](https://valheim.thunderstore.io/package/Azumatt/Official_BepInEx_ConfigurationManager/).
+The on/off hotkey and looks can be configured in the config file in Bepinex\config (have to run the game at least once to generate it), or by using [BepInEx.ConfigurationManager](https://valheim.thunderstore.io/package/Azumatt/Official_BepInEx_ConfigurationManager/).
 
-
-`Version checks with itself. If installed on the server, it will kick clients who do not have it installed.`
-
-`This mod uses ServerSync, if installed on the server and all clients, it will sync all configs to client`
 
 `This mod uses a file watcher. If the configuration file is not changed with BepInEx Configuration manager, but changed in the file directly on the server, upon file save, it will sync the changes to all clients.`
 
@@ -66,6 +62,7 @@ For Questions or Comments, find me in the Odin Plus Team Discord or in mine:
 
 > # Update Information (Latest listed first)
 
-| `Version` | `Update Notes`    |
-|-----------|-------------------|
-| 1.0.0     | - Initial Release |
+| `Version`   | `Update Notes`                                                       |
+|-------------|----------------------------------------------------------------------|
+| 1.0.1/1.0.2 | - README updates. Update manifest.json to include link to the GitHub |
+| 1.0.0       | - Initial Release                                                    |
