@@ -1,0 +1,9 @@
+{
+  "name": "PerformanceTracker",
+  "version_number": "1.0.0",
+  "website_url": "https://discord.gg/pdHgy6Bsng",
+  "description": "A mod that measures many performance statistics. It can be used to help determine causes of performance drops and other issues. Will not solve all problems!",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.1901"
+  ]
+}

@@ -1,0 +1,8 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+PerformanceTracker.sln.DotSettings.user
+.idea
+.vs
