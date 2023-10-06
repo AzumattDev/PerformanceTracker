@@ -115,6 +115,7 @@
         <Content Include="ILRepack.targets" />
         <Content Include="LICENSE.txt" />
         <Content Include="README.md" />
+        <Content Include="Thunderstore\CHANGELOG.md" />
         <Content Include="Thunderstore\icon.png" />
         <Content Include="Thunderstore\manifest.json" />
         <Content Include="UpdateManifest.ps1" />
@@ -162,7 +163,7 @@
     </Target>
     <Target Name="MakeThunderstorePackage" AfterTargets="UpdateManifestVersion" Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
         <ItemGroup>
-            <PackageFiles Include="$(TargetDir)$(AssemblyName).dll; Thunderstore\README.md; Thunderstore\manifest.json; Thunderstore\icon.png;" />
+            <PackageFiles Include="$(TargetDir)$(AssemblyName).dll; Thunderstore\README.md; Thunderstore\CHANGELOG.md; Thunderstore\manifest.json; Thunderstore\icon.png;" />
         </ItemGroup>
         <MakeDir Directories="$(PackageDir)" />
         <Copy SourceFiles="@(PackageFiles)" DestinationFolder="$(PackageDir)" />
